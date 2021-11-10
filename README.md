@@ -42,6 +42,7 @@
 
 ### KREDIT ✨
 - **[Skyzo](https://github.com/ridho17-ind)**
+- **[Fariz](https://github.com/fjgaming212)**
 - **[Flicks Support](https://t.me/FlicksSupport)**
 - **[Group Music Random](https://t.me/GroupMusicRandom)**
 - **[Tomi](https://github.com/XtomiSN)**
