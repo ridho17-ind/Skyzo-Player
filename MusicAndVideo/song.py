@@ -66,7 +66,7 @@ async def song(client, message: Message):
     c_time = time.time()
     capy = f"""
 **🏷️ Nama Lagu:** [{thum}]({mo})
-**🎧 Permintaan Dari:** {message.from_user.mention}
+**🎵 Permintaan Dari:** {message.from_user.mention}
 """
     file_stark = f"{ytdl_data['id']}.mp3"
     await client.send_audio(
@@ -81,7 +81,7 @@ async def song(client, message: Message):
         progress_args=(
             pablo,
             c_time,
-            f"**📥 Download** `{urlissed}`",
+            f"**Sedang Mendownload 📥** `{urlissed}`",
             file_stark,
         ),
     )
@@ -275,7 +275,7 @@ async def vsong(client, message: Message):
     file_stark = f"{ytdl_data['id']}.mp4"
     capy = f"""
 **🏷️ Nama Video:** [{thum}]({mo})
-**🎧 Permintaan Dari:** {message.from_user.mention}
+**🎵 Permintaan Dari:** {message.from_user.mention}
 """
     await client.send_video(
         message.chat.id,
@@ -289,7 +289,7 @@ async def vsong(client, message: Message):
         progress_args=(
             pablo,
             c_time,
-            f"**📥 Download** `{urlissed}`",
+            f"**Sedang Mendownload 📥** `{urlissed}`",
             file_stark,
         ),
     )
