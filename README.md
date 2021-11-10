@@ -30,7 +30,7 @@
 
 ## 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/XtomiSN/MusicAndVideoPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ridho17-ind/Skyzo-Player)
 
 
 ## 📚 Variabel Yang Dibutuhkan
@@ -41,6 +41,9 @@
 
 
 ## KREDIT ✨
-- [Group Music Random](https://t.me/GroupMusicRandom)
-- [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Laky](https://github.com/Laky-64) for [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+- **[Skyzo](https://github.com/ridho17-ind)**
+- **[Flicks Support](https://t.me/FlicksSupport)**
+- **[Group Music Random](https://t.me/GroupMusicRandom)**
+- **[Tomi](https://github.com/XtomiSN)**
+- **[Dan](https://github.com/delivrance) For [Pyrogram](https://github.com/pyrogram/pyrogram)**
+- **[Laky](https://github.com/Laky-64) For [PyTgCalls](https://github.com/pytgcalls/pytgcalls)**
