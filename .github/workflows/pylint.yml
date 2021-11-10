@@ -1,4 +1,4 @@
-name: TOMI
+name: Skyzo
  
 on: [push, pull_request]
  
@@ -31,6 +31,6 @@ jobs:
           commit_message: '`something`'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: XtomiSN
-          commit_user_email: 90341045+XtomiSN@users.noreply.github.com
-          commit_author: XtomiSN <90341045+XtomiSN@users.noreply.github.com>
+          commit_user_name: Ridho17-ind
+          commit_user_email: 90341045+ridho17-ind@users.noreply.github.com
+          commit_author: Ridho17-ind <90341045+ridho17-ind@users.noreply.github.com>
