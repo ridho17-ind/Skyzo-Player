@@ -36,7 +36,7 @@
 ### 📚 Variabel Yang Dibutuhkan
 - `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 - `API_HASH` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
-- `SESSION` - Sesi String Pyrogram. Dapatkan String Dari [Sini](https://replit.com/@GoodBoysExe/string-session?lite=1&outputonly=1)
+- `SESSION` - Sesi String Pyrogram. Dapatkan String Dari [Sini](https://replit.com/@fjgaming212/StringSession#main.py) Pilih P jangan T
 - `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin
 
 
