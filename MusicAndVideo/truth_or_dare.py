@@ -11,7 +11,7 @@ async def truth(client, message):
         results = f"{resp['message']}"
         return await message.reply_text(results)
     except Exception:
-        await message.reply_text("Lagi error truth nya")
+        await message.reply_text("Api `Truth` sedang error")
 
 
 @Client.on_message(filters.command(["dare"], prefixes=f"{HNDLR}"))
@@ -21,4 +21,4 @@ async def dare(client, message):
         results = f"{resp['message']}"
         return await message.reply_text(results)
     except Exception:
-        await message.reply_text("Lagi error dare nya")
+        await message.reply_text("Api `Dare` sedang error")
