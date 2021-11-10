@@ -93,11 +93,12 @@ async def repo(client, m: Message):
     REPO = f"""
 <b>👋 Hallo {m.from_user.mention}!
 
-🎶 Music Dan Video Player UserBot
+🐍 Music Dan Video Player UserBot
 
-🤖 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
+🔰 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
 
-✨ Dipersembahkan Oleh 
+👩‍💻 Dipersembahkan Oleh 
+• [Flicks Support](https://t.me/FlicksSupport)
 • [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 • [Pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -122,8 +123,7 @@ async def repo(client, m: Message):
 • `/skip` - untuk melewati lagu atau video
 • `/end` - untuk mengakhiri pemutaran
 
-💡 Deployment
-
+🥜 Deployment Userbot
 💜 Heroku
 
  [𝗗𝗘𝗣𝗟𝗢𝗬 𝗞𝗘 𝗛𝗘𝗥𝗢𝗞𝗨](https://heroku.com/deploy?template=https://github.com/ridho17-ind/Skyzo-Player)
@@ -136,7 +136,9 @@ async def repo(client, m: Message):
 
 
 ❤️‍🔥 KREDIT 
-• [Dan](https://github.com/delivrance) untuk [Pyrogram](https://github.com/pyrogram/pyrogram)
-• [Laky](https://github.com/Laky-64) untuk [PyTgCalls](https://github.com/pytgcalls/pytgcalls)</b>
+• [Skyzo](https://github.com/ridho17-ind)
+• [Tomi](https://github.com/XtomiSN)
+• [Dan](https://github.com/delivrance) Untuk [Pyrogram](https://github.com/pyrogram/pyrogram)
+• [Laky](https://github.com/Laky-64) Untuk [PyTgCalls](https://github.com/pytgcalls/pytgcalls)</b>
 """
     await m.reply(REPO, disable_web_page_preview=True)
