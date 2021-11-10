@@ -11,7 +11,7 @@ async def main():
     print(
         """
     ------------------
-   | Userbot Started! |
+   | Userbot Actived! |
     ------------------
 """
     )
