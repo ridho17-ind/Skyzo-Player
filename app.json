@@ -1,13 +1,13 @@
 {
     "name": "Music Dan Video Player UserBot",
     "description": "Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.",
-    "logo": "https://telegra.ph/file/e99fd5f4e72127ed67c65.jpg",
+    "logo": "https://telegra.ph/file/65a17994a6deab0e70e67.jpg",
     "keywords": [
         "Telegram",
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/XtomiSN/MusicAndVideoPlayer",
+    "repository": "https://github.com/ridho17-ind/Skyzo-Player",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
