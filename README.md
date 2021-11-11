@@ -37,7 +37,8 @@
 - `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 - `API_HASH` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 - `SESSION` - Sesi String Pyrogram. Dapatkan String Dari [Sini](https://replit.com/@fjgaming212/StringSession#main.py) Pilih P jangan T
-- `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin
+- `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin,pergi ke [@FlicksMusicbot](t.me/FlicksMusicBot) Ketik /id,maka akan muncul id kamu
+- `HNDLR` - Handler untuk menjalankan userbot mu
 
 
 ### KREDIT ✨
