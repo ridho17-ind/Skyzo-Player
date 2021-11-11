@@ -111,17 +111,17 @@ async def repo(client, m: Message):
 🛠 MENU BANTUAN
 
 ⚡ PERINTAH UNTUK SEMUA ORANG
-• `/play [judul lagu | link youtube | balas file audio]` - untuk memutar lagu
-• `/vplay [judul video | link youtube | balas file video]` - untuk memutar video
-• `/playlist` untuk melihat daftar putar
-• `/ping` - untuk cek status
-• `/help` - untuk melihat daftar perintah
+• `{HNDLR}play` [judul lagu | link youtube | balas file audio] - untuk memutar lagu
+• `{HNDLR}vplay` [judul video | link youtube | balas file video] - untuk memutar video
+• `{HNDLR}playlist` untuk melihat daftar putar
+• `{HNDLR}ping` - untuk cek status
+• `{HNDLR}help` - untuk melihat daftar perintah
 
 ⚡ PERINTAH UNTUK SEMUA ADMIN
-• `/resume` - untuk melanjutkan pemutaran lagu atau video
-• `/pause` - untuk untuk menjeda pemutaran lagu atau video
-• `/skip` - untuk melewati lagu atau video
-• `/end` - untuk mengakhiri pemutaran
+• `{HNDLR}resume` - untuk melanjutkan pemutaran lagu atau video
+• `{HNDLR}pause` - untuk untuk menjeda pemutaran lagu atau video
+• `{HNDLR}skip` - untuk melewati lagu atau video
+• `{HNDLR}end` - untuk mengakhiri pemutaran
 
 🥜 Deployment Userbot
 💜 Heroku
@@ -133,6 +133,7 @@ async def repo(client, m: Message):
 • `API_HASH` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 • `SESSION` - Sesi String Pyrogram. Dapatkan String Dari [Sini](https://replit.com/@fjgaming212/StringSession#main.py)
 • `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin
+• `HNDLR` - Handler untuk menjalankan userbot mu
 
 
 ❤️‍🔥 KREDIT 
