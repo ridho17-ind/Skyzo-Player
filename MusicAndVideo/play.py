@@ -110,7 +110,7 @@ async def play(client, m: Message):
     if replied:
         if replied.audio or replied.voice:
             await m.delete()
-            huehue = await replied.reply("**🔄 Memproses**")
+            huehue = await replied.reply("**🔄 Memproses Request..**")
             dl = await replied.download()
             link = replied.link
             if replied.audio:
@@ -128,9 +128,9 @@ async def play(client, m: Message):
                     photo="https://telegra.ph/file/d6f92c979ad96b2031cba.png",
                     caption=f"""
 **#⃣ Lagu Di Antrian Ke {pos}
-🏷️ Judul: [{songname}]({link})
-💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+📚 Judul: [{songname}]({link})
+📨 Chat ID: {chat_id}
+🦹🏻 Permintaan: {m.from_user.mention}**
 """,
                 )
             else:
@@ -147,10 +147,10 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/6213d2673486beca02967.png",
                     caption=f"""
-**▶ Mulai Memutar Lagu
-🏷️ Judul: [{songname}]({link})
-💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+**📨 Mulai Memutar Lagu
+🗃️ Judul: [{songname}]({link})
+📝 Chat ID: {chat_id}
+🦹🏻 Atas Permintaan: {m.from_user.mention}**
 """,
                 )
 
@@ -159,7 +159,7 @@ async def play(client, m: Message):
             await m.reply("Balas ke File Audio atau berikan sesuatu untuk Pencarian")
         else:
             await m.delete()
-            huehue = await m.reply("🔎 Pencarian")
+            huehue = await m.reply("**🔎 Pencarian Lagu..**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -217,7 +217,7 @@ async def vplay(client, m: Message):
     if replied:
         if replied.video or replied.document:
             await m.delete()
-            huehue = await replied.reply("**🔄 Memproses**")
+            huehue = await replied.reply("**🔄 Memproses Video..**")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
@@ -282,7 +282,7 @@ async def vplay(client, m: Message):
             )
         else:
             await m.delete()
-            huehue = await m.reply("**🔎 Pencarian")
+            huehue = await m.reply("**🔎 Pencarian Lagu..**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
@@ -351,7 +351,7 @@ async def playfrom(client, m: Message):
             limit = 10
             lmt = 9
         await m.delete()
-        hmm = await m.reply(f"🔎 Mengambil {limit} Lagu Acak Dari {chat}**")
+        hmm = await m.reply(f"**🔎 Mengambil {limit} Lagu Acak Dari {chat}**")
         try:
             async for x in bot.search_messages(chat, limit=limit, filter="audio"):
                 location = await x.download()
