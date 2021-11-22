@@ -35,7 +35,7 @@ async def ping(client, m: Message):
     await m.delete()
     start = time()
     current_time = datetime.utcnow()
-    m_reply = await m.reply_text("⚡")
+    m_reply = await m.reply_text("🥵")
     delta_ping = time() - start
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
@@ -69,7 +69,7 @@ async def help(client, m: Message):
     HELP = f"""
 <b>👋 Hallo {m.from_user.mention}!
 
-🛠 MENU BANTUAN
+🛠 MENU BANTUAN SKYZO PLAYER
 
 ⚡ PERINTAH UNTUK SEMUA ORANG
 • {HNDLR}play [judul lagu | link youtube | balas file audio] - untuk memutar lagu
@@ -77,6 +77,12 @@ async def help(client, m: Message):
 • {HNDLR}playlist untuk melihat daftar putar
 • {HNDLR}ping - untuk cek status
 • {HNDLR}help - untuk melihat daftar perintah
+
+⚡ PERINTAH PLUGINS FUN
+• {HNDLR}q - untuk membuat qoute
+• {HNDLR}truth - untuk seru seruan
+• {HNDLR}dare - untuk tantangan
+
 
 ⚡ PERINTAH UNTUK SEMUA ADMIN
 • {HNDLR}resume - untuk melanjutkan pemutaran lagu atau video
@@ -117,7 +123,13 @@ async def repo(client, m: Message):
 • `{HNDLR}ping` - untuk cek status
 • `{HNDLR}help` - untuk melihat daftar perintah
 
+⚡ PERINTAH PLUGINS FUN
+• `{HNDLR}q` - untuk membuat qoute
+• `{HNDLR}truth` - untuk seru seruan
+• `{HNDLR}dare` - untuk tantangan
+
 ⚡ PERINTAH UNTUK SEMUA ADMIN
+• `{HNDLR}id` - untuk cek status
 • `{HNDLR}resume` - untuk melanjutkan pemutaran lagu atau video
 • `{HNDLR}pause` - untuk untuk menjeda pemutaran lagu atau video
 • `{HNDLR}skip` - untuk melewati lagu atau video
