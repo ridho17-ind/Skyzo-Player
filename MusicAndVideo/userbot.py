@@ -105,9 +105,8 @@ async def repo(client, m: Message):
 🔰 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
 
 👩‍💻 Dipersembahkan Oleh 
-• [Flicks Support](https://t.me/FlicksSupport)
-• [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-• [Pyrogram](https://github.com/pyrogram/pyrogram)
+• [Flicks Support 1](https://t.me/FlicksSupport)
+• [Flicks Support 2](http://t.me/flicksrobotsupport)
 
 
 📝 Persyaratan
@@ -115,7 +114,7 @@ async def repo(client, m: Message):
 • FFMPEG
 • Nodejs v16+
 
-🛠 MENU BANTUAN
+🛠 MENU BANTUAN MUSIC BOT
 
 ⚡ PERINTAH UNTUK SEMUA ORANG
 • `{HNDLR}play` [judul lagu | link youtube | balas file audio] - untuk memutar lagu
@@ -137,12 +136,12 @@ async def repo(client, m: Message):
 • `{HNDLR}skip` - untuk melewati lagu atau video
 • `{HNDLR}end` - untuk mengakhiri pemutaran
 
-🥜 Deployment Userbot
+🦹🏻 Deployment Userbot
 💜 Heroku
 
  [𝗗𝗘𝗣𝗟𝗢𝗬 𝗞𝗘 𝗛𝗘𝗥𝗢𝗞𝗨](https://heroku.com/deploy?template=https://github.com/ridho17-ind/Skyzo-Player)
 
-📚 Variabel Yang Dibutuhkan
+📝 Variabel Yang Dibutuhkan
 • `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 • `API_HASH` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 • `SESSION` - Sesi String Pyrogram. Dapatkan String Dari [Sini](https://replit.com/@fjgaming212/StringSession#main.py)
@@ -150,10 +149,8 @@ async def repo(client, m: Message):
 • `HNDLR` - Handler untuk menjalankan userbot mu
 
 
-❤️‍🔥 KREDIT 
+❤️‍🔥 KREDIT DEVOLOPER
 • [Skyzo](https://github.com/ridho17-ind)
-• [Tomi](https://github.com/XtomiSN)
-• [Dan](https://github.com/delivrance) Untuk [Pyrogram](https://github.com/pyrogram/pyrogram)
-• [Laky](https://github.com/Laky-64) Untuk [PyTgCalls](https://github.com/pytgcalls/pytgcalls)</b>
+• [Tomi](https://github.com/XtomiSN)</b>
 """
     await m.reply(REPO, disable_web_page_preview=True)
