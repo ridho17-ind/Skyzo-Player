@@ -69,7 +69,7 @@ async def help(client, m: Message):
     HELP = f"""
 <b>👋 Hallo {m.from_user.mention}!
 
-🛠 MENU BANTUAN SKYZO PLAYER
+🛠 MENU BANTUAN MUSIC PLAYER
 
 ⚡ PERINTAH UNTUK SEMUA ORANG
 • {HNDLR}play [judul lagu | link youtube | balas file audio] - untuk memutar lagu
@@ -127,6 +127,7 @@ async def repo(client, m: Message):
 ⚡ PERINTAH PLUGINS FUN
 • `{HNDLR}q` - untuk membuat qoute
 • `{HNDLR}truth` - untuk seru seruan
+• `{HNDLR}github` - untuk melihat data github
 • `{HNDLR}dare` - untuk tantangan
 
 ⚡ PERINTAH UNTUK SEMUA ADMIN
