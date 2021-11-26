@@ -18,7 +18,7 @@ async def showid(_, message: Message):
         _id += "<b>ID group</b>: " f"<code>{message.chat.id}</code>\n"
         if message.reply_to_message:
             _id += (
-                "<b>ID pengguna yang dibalas</b>: "
+                "<b>ID Pengguna Yang Dibalas</b>: "
                 f"<code>{message.reply_to_message.from_user.id}</code>\n"
             )
             file_info = get_file_id(message.reply_to_message)
