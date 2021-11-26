@@ -1,15 +1,5 @@
-##### 🎶 Music Dan Video Player UserBot 🎶
-### 🤖 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
-
-## ✨ Didukung Oleh 
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-
-
-## 📝 Persyaratan
-- Python 3.8+
-- FFMPEG
-- Nodejs v16+
+##### 📚 Music Dan Video Player UserBot
+### 👩‍💻 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
 
 ### 🛠 MENU BANTUAN
 
@@ -26,7 +16,7 @@
 - `/skip` - untuk melewati lagu atau video
 - `/end` - untuk mengakhiri pemutaran
 
-### 💡 Deployment
+### 📚 Deployment
 
 ### 💜 Heroku
 
@@ -41,11 +31,9 @@
 - `HNDLR` - Handler untuk menjalankan userbot mu
 
 
-### KREDIT ✨
+### KREDIT DEVOLOPER✨
 - **[Skyzo](https://github.com/ridho17-ind)**
 - **[Fariz](https://github.com/fjgaming212)**
 - **[Flicks Support](https://t.me/FlicksSupport)**
 - **[Group Music Random](https://t.me/GroupMusicRandom)**
 - **[Tomi](https://github.com/XtomiSN)**
-- **[Dan](https://github.com/delivrance) For [Pyrogram](https://github.com/pyrogram/pyrogram)**
-- **[Laky](https://github.com/Laky-64) For [PyTgCalls](https://github.com/pytgcalls/pytgcalls)**
