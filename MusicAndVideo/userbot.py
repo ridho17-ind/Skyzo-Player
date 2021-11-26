@@ -76,6 +76,7 @@ async def help(client, m: Message):
 • {HNDLR}vplay [judul video | link youtube | balas file video] - untuk memutar video
 • {HNDLR}playlist untuk melihat daftar putar
 • {HNDLR}ping - untuk cek status
+• {HNDLR}id - untuk melihat id pengguna
 • {HNDLR}video - judul video | link yt untuk mencari video
 • {HNDLR}song - judul lagu | link yt untuk mencari lagu
 • {HNDLR}help - untuk melihat daftar perintah
@@ -124,6 +125,7 @@ async def repo(client, m: Message):
 • `{HNDLR}vplay` [judul video | link youtube | balas file video] - untuk memutar video
 • `{HNDLR}playlist` untuk melihat daftar putar
 • `{HNDLR}ping` - untuk cek status
+• `{HNDLR}id` - untuk melihat id pengguna
 • `{HNDLR}video` - judul video | link yt untuk mencari video
 • `{HNDLR}song` - judul lagu | link yt untuk mencari lagu
 • `{HNDLR}help` - untuk melihat daftar perintah
