@@ -80,6 +80,7 @@ async def help(client, m: Message):
 
 ⚡ PERINTAH PLUGINS FUN
 • {HNDLR}q - untuk membuat qoute
+• {HNDLR}github - untuk melihat data github
 • {HNDLR}truth - untuk seru seruan
 • {HNDLR}dare - untuk tantangan
 
