@@ -76,10 +76,13 @@ async def help(client, m: Message):
 • {HNDLR}vplay [judul video | link youtube | balas file video] - untuk memutar video
 • {HNDLR}playlist untuk melihat daftar putar
 • {HNDLR}ping - untuk cek status
+• {HNDLR}video - judul video | link yt untuk mencari video
+• {HNDLR}song - judul lagu | link yt untuk mencari lagu
 • {HNDLR}help - untuk melihat daftar perintah
 
 ⚡ PERINTAH PLUGINS FUN
 • {HNDLR}q - untuk membuat qoute
+• {HNDLR}tts - balas ke pesan | untuk membuat suara
 • {HNDLR}github - untuk melihat data github
 • {HNDLR}truth - untuk seru seruan
 • {HNDLR}dare - untuk tantangan
@@ -100,7 +103,7 @@ async def repo(client, m: Message):
     REPO = f"""
 <b>👋 Hallo {m.from_user.mention}!
 
-🐍 Music Dan Video Player UserBot
+🗃️ Music Dan Video Player UserBot
 
 🔰 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
 
@@ -121,10 +124,13 @@ async def repo(client, m: Message):
 • `{HNDLR}vplay` [judul video | link youtube | balas file video] - untuk memutar video
 • `{HNDLR}playlist` untuk melihat daftar putar
 • `{HNDLR}ping` - untuk cek status
+• `{HNDLR}video` - judul video | link yt untuk mencari video
+• `{HNDLR}song` - judul lagu | link yt untuk mencari lagu
 • `{HNDLR}help` - untuk melihat daftar perintah
 
 ⚡ PERINTAH PLUGINS FUN
 • `{HNDLR}q` - untuk membuat qoute
+• `{HNDLR}tts` - balas ke pesan | untuk membuat suara
 • `{HNDLR}truth` - untuk seru seruan
 • `{HNDLR}github` - untuk melihat data github
 • `{HNDLR}dare` - untuk tantangan
