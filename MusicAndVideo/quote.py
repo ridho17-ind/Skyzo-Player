@@ -11,7 +11,7 @@ from MusicAndVideo.helpers.merrors import capture_err
 
 ARQ_API_KEY = "COTOQH-VQHMWV-MFAZMB-VXLAHG-ARQ"
 aiohttpsession = aiohttp.ClientSession()
-arq = ARQ("https://thearq.tech", ARQ_API_KEY, aiohttpsession)
+arq = ARQ("https://grambuilders.tech", ARQ_API_KEY, aiohttpsession)
 
 
 async def quotify(messages: list):
