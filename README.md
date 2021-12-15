@@ -2,7 +2,7 @@
 <p align="center">
 <br><b>Skyzo-Player adalah userbot music Telegram untuk memutar lagu dan video di voice chat!</b><br>
 
-#### 📨 **Support Chat? [Here](t.me/flicksrobotsupport)**
+#### 📨 **Grup Chat? [Disini](t.me/flicksrobotsupport)**
 
 <p align="center"><a href="https://t.me/flicksrobotsupport"><img src="https://telegra.ph/file/68b15d808cec6d326c609.jpg" width="260"></a></p>
 
