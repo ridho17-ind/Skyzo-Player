@@ -9,9 +9,9 @@ from Python_ARQ import ARQ
 from config import HNDLR
 from MusicAndVideo.helpers.merrors import capture_err
 
-ARQ_API_KEY = "COTOQH-VQHMWV-MFAZMB-VXLAHG-ARQ"
+ARQ_API_KEY = "HMPXNS-BDPCCB-UJKRPU-OQADHG-ARQ"
 aiohttpsession = aiohttp.ClientSession()
-arq = ARQ("https://grambuilders.tech", ARQ_API_KEY, aiohttpsession)
+arq = ARQ("https://thearq.tech", ARQ_API_KEY, aiohttpsession)
 
 
 async def quotify(messages: list):
